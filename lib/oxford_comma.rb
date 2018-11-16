@@ -1,9 +1,9 @@
 def oxford_comma(array)
   if array.length == 1
-    puts array[0]
+    return array[0]
   elsif array.length == 2 
-    array.join(" and")
+    return array.join(" and")
   elsif array.length == 3
-  puts array
+    return array
 end
 end
