@@ -11,5 +11,5 @@ def oxford_comma(array)
     final_array = first_part.map { |ele| ele + ", "}
     final_array << last
 end
-return final_array
+return final_array.join("")
 end
