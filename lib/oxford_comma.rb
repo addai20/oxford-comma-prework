@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length > 2
     first_part = array[0..-2]
     last = array[-1]
-    last = "and" + last
+    last = "and " + last
     
     final_array = first_part.map { |ele| ele + ", "}
     final_array << last
